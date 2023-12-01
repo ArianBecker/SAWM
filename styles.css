@@ -25,8 +25,9 @@
 /* Web page */
 
 a {
-  color: white; 
+  color: white;
 }
+
 
 .avatar {
   height: 100px;
@@ -42,10 +43,12 @@ a {
 }
 
 .hello-div {
-
+  background-image: url("static/img/grapes.jpeg");
+  background-position: center;
+  background-size: cover;
   text-align: center;
   font-family: 'Alex Brush', cursive;
-  position: relative;
+  height: 500px;
 
 }
 
@@ -54,17 +57,14 @@ a {
   height: 400px;
   width: 100%;
   object-fit: cover;
+  z-index: -1;
 }
 
 
 .title {
-  position: absolute;
-  height: 20%;
-  bottom: 40%;
+  padding-top: 200px; 
   color:  white;
   font-size: 5rem;
-  padding-left: 40%;
-  padding-right: 20px;
 }
 
 .text-container{
@@ -77,27 +77,12 @@ a {
 
 @media only screen and (max-width: 600px) {
   .title{
-    position: absolute;
-    height: 20%;
-    bottom: 40%;
-    color:  white;
     font-size: 3rem;
-    padding-left: 20%;
-    padding-right: 20px;
   }
 
 }
 @media only screen and (max-width: 1200px) {
   .title{
-    position: absolute;
-    height: 20%;
-    bottom: 40%;
-    color:  white;
     font-size: 3rem;
-    padding-left: 30%;
-    padding-right: 20px;
   }
-
 }
-
-
