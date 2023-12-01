@@ -1,0 +1,101 @@
+
+/* colours */
+.merlot {
+  background-color: #3a1014;
+}
+
+.pinotage {
+  background-color: #5a1314;
+}
+
+.cool-beige {
+  background-color: #8f6b5e;
+}
+
+.light-beige {
+  background-color: #e0d4cf;
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+/* ------------------------------------------- */
+/* Web page */
+
+a {
+  color: white; 
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.crop {
+  object-fit: cover;
+}
+
+.hello-div {
+
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  position: relative;
+
+}
+
+.hello-img {
+  background-color: #8c8c8c;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.title {
+  position: absolute;
+  height: 20%;
+  bottom: 40%;
+  color:  white;
+  font-size: 5rem;
+  padding-left: 40%;
+  padding-right: 20px;
+}
+
+.text-container{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #bcb3ac;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .title{
+    position: absolute;
+    height: 20%;
+    bottom: 40%;
+    color:  white;
+    font-size: 3rem;
+    padding-left: 40%;
+    padding-right: 20px;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  .title{
+    position: absolute;
+    height: 20%;
+    bottom: 40%;
+    color:  white;
+    font-size: 3rem;
+    padding-left: 40%;
+    padding-right: 20px;
+  }
+
+}
