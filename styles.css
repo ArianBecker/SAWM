@@ -1,7 +1,7 @@
 
 /* colours */
 .merlot {
-  background-color: #3a1014;
+  background-color: #394e3a;
 }
 
 .pinotage {
@@ -9,11 +9,11 @@
 }
 
 .cool-beige {
-  background-color: #8f6b5e;
+  background-color: #2e2e2e;
 }
 
 .light-beige {
-  background-color: #e0d4cf;
+  background-color:#3d3d3d;
   color: white;
 }
 
@@ -29,17 +29,18 @@ a {
 }
 
 
-.avatar {
-  height: 100px;
-  width: 100px;
-  background-color: #bbb;
-  border-radius: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .crop {
   object-fit: cover;
+}
+
+.founders-img {
+  width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }
 
 .hello-div {
@@ -47,42 +48,93 @@ a {
   background-position: center;
   background-size: cover;
   text-align: center;
-  font-family: 'Alex Brush', cursive;
   height: 500px;
-
 }
 
-.hello-img {
-  background-color: #8c8c8c;
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
+.hello-img{
+  width: 500px;
+  position: absolute;
+  top: 181px;
+  margin-left: 200px;
 }
 
-
-.title {
-  padding-top: 200px; 
-  color:  white;
-  font-size: 5rem;
+.hello-txt {
+  text-align: left;
+  margin-top: 160px;
 }
+
 
 .text-container{
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: white;
-  box-shadow: 10px 10px 5px #bcb3ac;
+  box-shadow: 10px 10px 5px #343434;
+}
+
+.spacer {
+  height: 75px;
+}
+
+.spacer-sm {
+  height: 30px; 
+}
+
+.title {
+  margin-top: 100px; 
+  margin-bottom: 50px;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .title{
+    margin-top: 0px;
     font-size: 3rem;
   }
 
+  .spacer {
+    height: 25px;
+  }
+
+  .founders-img {
+    width: 100%;
+    position: static;
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  .hello-img{
+    margin-left: 0px;
+  }
+
+  .hello-div {
+    padding-top: 50px; 
+  }
+
+  .hello-txt {
+    text-align: left;
+    margin-top: 0px;
+  }
+
+
 }
-@media only screen and (max-width: 1200px) {
-  .title{
+@media only screen and (max-width: 900px) {
+  .title{    
     font-size: 3rem;
   }
+  .spacer {
+    height: 50px;
+  }
+
+  .founders-img {
+    width: 100%;
+    position: static;
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    margin-bottom: 20px;
+  }
+
+  .hello-img{
+    margin-left: 0px;
+  }
+
 }
